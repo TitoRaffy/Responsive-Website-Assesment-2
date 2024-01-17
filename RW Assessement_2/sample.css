@@ -1,0 +1,118 @@
+ body {
+     font-family: Josefin Sans, sans-serif;
+     background: #1a1d54;
+     padding: 0;
+     margin: 0;
+ }
+
+ nav {
+     background-color: #1a1d54;
+     box-shadow: 5px;
+     color: white;
+     padding: 20px 50px;
+ }
+
+ .navibar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .srch {
+     display: flex;
+     align-items: center;
+     background-color: #fffccf;
+     padding: 10px 20px;
+     border-radius: 30px;
+     margin-right: 20px;
+ }
+
+ .srch-inp {
+     border: none;
+     background-color: transparent;
+ }
+
+ .srch-inp::placeholder {
+    color: lightslategray;
+ }
+
+.offer {
+    font-size: 20px;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.ctgrs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-prod {
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.sld-cont {
+    display: flex;
+    width: 500vw;
+}
+
+.sld-item {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sld-img {
+    height: 50vw;
+    width: 100vw;
+}
+
+.sld-title {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.sld-prc {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-size: 45px;
+    font-weight: 650;
+    color: #1a1d54;
+    border-bottom: 5px solid #1a1d54;
+}
+
+.buy-btn {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #1a1d54;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #fffccf;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.buy-btn:hover {
+    color: #fffccf;
+}
+
+
+
+
+
+
+
